@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://lifediagnostics.com/wp-content/uploads/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg);
+}
+.tulbad {
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid black;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+tr:first-child {
+    color: red;
+    background-color: black;
+}
+
+.myrgine {
+    background-color: aliceblue;
+    color: green
+}
+
+.eesti {
+    background-color: black;
+    color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  color: #03b909;
+  font-size: 45px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+}
+
+p {
+    color: blue;
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: right;
+}
+
+img {
+    border: 5px solid #a7b903;
+    box-shadow: 5px 10px 5px #888888;
+    max-width: 80%;
+    height: auto;
+}
+
